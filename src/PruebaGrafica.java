@@ -33,6 +33,7 @@ public class PruebaGrafica extends JFrame {
 	private JPanel contentPane;
 	private JTextField textSumandouno;
 	private JTextField textSumandodos;
+	private JTextField textProgreso;
 	
 	//variables sonido
 	
@@ -148,6 +149,13 @@ public class PruebaGrafica extends JFrame {
 		contentPane.add(textSumandodos);
 		textSumandodos.setColumns(10);
 		
+		textProgreso = new JTextField();
+		textProgreso.setText("0%");
+		textProgreso.setEditable(true);
+		textProgreso.setBounds(337, 78, 146, 14);
+		contentPane.add(textProgreso);
+		textProgreso.setColumns(10);
+		
 		JLabel lblTomJerry = new JLabel("New label");
 		lblTomJerry.setIcon(new ImageIcon("C:\\Programacion\\Workspaces\\JuegoSuma\\imagenes\\icono.jpg"));
 		lblTomJerry.setBounds(453, 236, 219, 165);
@@ -163,9 +171,11 @@ public class PruebaGrafica extends JFrame {
 				if (dos <= 10) {
 					if(resultado == 1) {
 						JOptionPane.showMessageDialog(null, "correcto ");
+						textProgreso.setText("100%");
 						
 					}else {
 						JOptionPane.showMessageDialog(null, "incorrecto ");
+						textProgreso.setText("0%");
 					}
 				}else {
 					JOptionPane.showMessageDialog(null, "el valor a sumar es mayor a 10 ");
@@ -188,8 +198,10 @@ public class PruebaGrafica extends JFrame {
 				if (dos <= 10) {
 					if(resultado == 2) {
 						JOptionPane.showMessageDialog(null, "correcto ");
+						textProgreso.setText("100%");
 					}else {
 						JOptionPane.showMessageDialog(null, "incorrecto ");
+						textProgreso.setText("0%");
 					}
 				}else {
 					JOptionPane.showMessageDialog(null, "el valor a sumar es mayor a 10 ");
@@ -211,8 +223,10 @@ public class PruebaGrafica extends JFrame {
 				if (dos <= 10) {
 					if(resultado == 3) {
 						JOptionPane.showMessageDialog(null, "correcto ");
+						textProgreso.setText("100%");
 					}else {
 						JOptionPane.showMessageDialog(null, "incorrecto ");
+						textProgreso.setText("0%");
 					}
 				}else {
 					JOptionPane.showMessageDialog(null, "el valor a sumar es mayor a 10 ");
@@ -234,8 +248,10 @@ public class PruebaGrafica extends JFrame {
 				if (dos <= 10) {
 					if(resultado == 4) {
 						JOptionPane.showMessageDialog(null, "correcto ");
+						textProgreso.setText("100%");
 					}else {
 						JOptionPane.showMessageDialog(null, "incorrecto ");
+						textProgreso.setText("0%");
 					}
 				}else {
 					JOptionPane.showMessageDialog(null, "el valor a sumar es mayor a 10 ");
@@ -257,8 +273,10 @@ public class PruebaGrafica extends JFrame {
 				if (dos <= 10) {
 					if(resultado == 5) {
 						JOptionPane.showMessageDialog(null, "correcto ");
+						textProgreso.setText("100%");
 					}else {
 						JOptionPane.showMessageDialog(null, "incorrecto ");
+						textProgreso.setText("0%");
 					}
 				}else {
 					JOptionPane.showMessageDialog(null, "el valor a sumar es mayor a 10 ");
@@ -280,8 +298,10 @@ public class PruebaGrafica extends JFrame {
 				if (dos <= 10) {
 					if(resultado == 6) {
 						JOptionPane.showMessageDialog(null, "correcto ");
+						textProgreso.setText("100%");
 					}else {
 						JOptionPane.showMessageDialog(null, "incorrecto ");
+						textProgreso.setText("0%");
 					}
 				}else {
 					JOptionPane.showMessageDialog(null, "el valor a sumar es mayor a 10 ");
@@ -304,8 +324,10 @@ public class PruebaGrafica extends JFrame {
 				if (dos <= 10) {
 					if(resultado == 7) {
 						JOptionPane.showMessageDialog(null, "correcto ");
+						textProgreso.setText("100%");
 					}else {
 						JOptionPane.showMessageDialog(null, "incorrecto ");
+						textProgreso.setText("0%");
 					}
 				}else {
 					JOptionPane.showMessageDialog(null, "el valor a sumar es mayor a 10 ");
@@ -327,8 +349,10 @@ public class PruebaGrafica extends JFrame {
 				if (dos <= 10) {
 					if(resultado == 8) {
 						JOptionPane.showMessageDialog(null, "correcto ");
+						textProgreso.setText("100%");
 					}else {
 						JOptionPane.showMessageDialog(null, "incorrecto ");
+						textProgreso.setText("0%");
 					}
 				}else {
 					JOptionPane.showMessageDialog(null, "el valor a sumar es mayor a 10 ");
@@ -350,8 +374,10 @@ public class PruebaGrafica extends JFrame {
 				if (dos <= 10) {
 					if(resultado == 9) {
 						JOptionPane.showMessageDialog(null, "correcto ");
+						textProgreso.setText("100%");
 					}else {
 						JOptionPane.showMessageDialog(null, "incorrecto ");
+						textProgreso.setText("0%");
 					}
 				}else {
 					JOptionPane.showMessageDialog(null, "el valor a sumar es mayor a 10 ");
@@ -373,8 +399,10 @@ public class PruebaGrafica extends JFrame {
 				if (dos <= 10) {
 					if(resultado == 10) {
 						JOptionPane.showMessageDialog(null, "correcto ");
+						textProgreso.setText("100%");
 					}else {
 						JOptionPane.showMessageDialog(null, "incorrecto ");
+						textProgreso.setText("0%");
 					}
 				}else {
 					JOptionPane.showMessageDialog(null, "el valor a sumar es mayor a 10 ");
