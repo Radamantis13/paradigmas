@@ -418,9 +418,13 @@ public class PruebaGrafica extends JFrame {
 		lblbarraprogreso.setBounds(337, 60, 147, 14);
 		contentPane.add(lblbarraprogreso);
 		
-		JLabel lblFondo = new JLabel("New label");
-		lblFondo.setIcon(new ImageIcon("C:\\Programacion\\Workspaces\\JuegoSuma\\imagenes\\azul.jpg"));
-		lblFondo.setBounds(0, 21, 677, 380);
-		contentPane.add(lblFondo);
+		JButton btnNewButton = new JButton("Limpiar");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				textSumandodos.setText(" ");
+			}
+		});
+		btnNewButton.setBounds(337, 318, 89, 23);
+		contentPane.add(btnNewButton);
 	}
 }

@@ -59,7 +59,7 @@ public class Inicio extends JFrame {
 		this.setTitle("menu inicio");
 		this.getContentPane().setBackground(getBackground());
 		
-		JButton btnEmpezar = new JButton("Empezar");
+		JButton btnEmpezar = new JButton("JUGAR");
 		btnEmpezar.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnEmpezar.setForeground(Color.BLACK);
 		btnEmpezar.setBackground(new Color(65, 105, 225));
